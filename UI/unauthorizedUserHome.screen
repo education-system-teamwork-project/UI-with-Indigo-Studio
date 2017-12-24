@@ -1,0 +1,67 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="0ca969ad-896f-4330-a975-2cb59bbaba1c">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="eadcad05-13e5-4b6c-b789-2889785fe9de">
+            <Content.Layers>
+                <Layer Id="b7ad153f-6201-4d55-b6a2-e0a23414caa9" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="bc6d9a3c-bc0d-455a-aeb6-1aeb858fb987" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="c77dda32-10e9-4ad4-bf39-700326a4803d" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="08b4c427-9e7e-46ec-adbe-c5ebd728666a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/24/2017 12:38:40" Id="00a482ca-0766-402c-a32b-debdc5e28d39">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5b8d4f5a-0c1d-439a-b750-dd78b34d11f6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b7ad153f-6201-4d55-b6a2-e0a23414caa9">
+                            <Add.Item>
+                                <Title RichText="Home Page" FontSize="48" FontFamily="Open Sans" Id="e852449d-1499-4f6b-9b10-15fa0f7e42b6" Panel.Bounds="373,120,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b7ad153f-6201-4d55-b6a2-e0a23414caa9">
+                            <Add.Item>
+                                <ContainerBox Id="3e7bde5f-a978-4721-9dff-8273c9aca4b6" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="d3c3300d-cac9-497a-9edf-e2613a087ee5">
+                                            <Container.Children>
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Register&lt;/Run&gt;" FontFamily="Open Sans" Id="4462b3e6-ddcd-424a-9aee-746363982c51" Panel.Bounds="258,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/register.screen" Created="12/24/2017 13:20:23" Id="54e156b7-c7fc-469d-b0a9-54c83116a2eb">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Label RichText="Login" FontSize="16" FontFamily="Open Sans" Id="9388d83a-b7e4-4f82-a723-5cf96296167a" Panel.Bounds="145,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/login.screen" Created="12/24/2017 13:20:16" Id="eb32880a-c049-4e29-9b72-d10a986aad2b">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="f9a523ff-71f9-4452-9696-7bf3ba72287b" Name="Home" Panel.Bounds="47,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

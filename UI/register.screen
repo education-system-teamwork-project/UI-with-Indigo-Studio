@@ -1,0 +1,124 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="b69580e4-6be6-40a0-90e5-68c00ea6359f">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="dabc1ba0-4344-48b9-aadc-00a52d01d9da">
+            <Content.Layers>
+                <Layer Id="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="49869269-bae9-4b48-94af-153a94d3694f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="98e485f0-e8cf-4247-9f78-02f204b5f1f2" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="db2ff552-30c3-4f35-9f82-e5cd6a7cdb06" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="12/24/2017 12:39:15" Id="853ae74f-4b62-4189-bc1c-327131d56c41">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4accde45-db73-41fa-9a13-d4fbdf532d86">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <Title RichText="Register Page" FontSize="48" FontFamily="Open Sans" Id="8c3cfc61-39f1-413a-bcd5-b564128338d3" Panel.Bounds="373,120,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <ContainerBox Id="697310a2-ea0f-48e8-bd40-fd73b9628d01" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="35d9b36d-958b-46d5-ae13-fb4fdb913854">
+                                            <Container.Children>
+                                                <Label RichText="Login" FontSize="16" FontFamily="Open Sans" Id="98e661a9-8dbe-44a9-8782-c5029c137e35" Panel.Bounds="145,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/login.screen" Created="12/24/2017 13:19:45" Id="0484c428-59d2-44e4-a678-b4a2c52fa7dd">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="acd85115-7a03-4a71-bf62-b79b506ca794" Name="Home" Panel.Bounds="47,23,5*{5,2147483647},5*{5,2147483647}">
+                                                    <Label.Click>
+                                                        <CommandNavigate Screen="/unauthorizedUserHome.screen" Created="12/24/2017 13:19:30" Id="895c7b36-8fd9-4e05-bd66-9cb1e56aec50">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Duration="0" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Label.Click>
+                                                </Label>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <TextBox Text="Username" Id="3ff5f81c-6f69-4be7-99a6-cbad7c9a6f31" Panel.Bounds="357,240,310{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <Button Text="Login" Id="5f649d3b-f4ad-415b-8ec3-bfab0c38de0d" Panel.Bounds="357,420,310{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <TextBox Text="Password" FontFamily="Open Sans" Id="a2531bdf-6a77-4c1f-b7d1-5a713374b6db" Panel.Bounds="357,330,310{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <TextBox Text="Confirm Password" FontFamily="Open Sans" Id="f6f96770-c214-4dad-a49e-fc37ad29f14c" Panel.Bounds="357,375,310{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <TextBox Text="Email" FontFamily="Open Sans" Id="be3ab051-d90b-476c-bd02-07a787d1381a" Panel.Bounds="357,285,310{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <Button Text="Already have an account?" Id="c8e92157-46cb-422c-b18a-9e556478e939" Panel.Bounds="357,476,310{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="6a4b0c92-925a-451e-8629-33735b4410a6" Created="12/24/2017 13:20:55" Id="fe8fb3d2-4270-4492-a7a0-de7c6949f3fa" />
+                                    </Button.Click>
+                                    <Button.DoubleClick>
+                                        <CommandNavigate Screen="/login.screen" Created="12/24/2017 13:23:09" Id="48770080-86d5-43d4-90fe-43984bfcf256">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.DoubleClick>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Already have an account?" ParentScene="853ae74f-4b62-4189-bc1c-327131d56c41" Created="12/24/2017 13:20:55" Id="6a4b0c92-925a-451e-8629-33735b4410a6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a96fb697-d176-402b-bdf4-73974ad2e58f">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.DoubleClick" Target="c8e92157-46cb-422c-b18a-9e556478e939">
+                            <Add.Item>
+                                <CommandNavigate Screen="/login.screen" Created="12/24/2017 13:21:09" Id="634888fb-6d24-44bd-b6a0-0e1f20efb661">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Duration="0" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
