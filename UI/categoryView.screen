@@ -45,26 +45,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
                             <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="c9de9953-1e9e-44b7-b5ee-c017a5534f7b" Panel.Bounds="0,744,1024{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
-                            <Add.Item>
-                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="5c900cac-0379-4caa-9991-2cc1518088ed" Panel.Bounds="51,746,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
-                            <Add.Item>
-                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="0198a467-f31a-48f0-97d5-b1517666f629" Panel.Bounds="200,746,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
-                            <Add.Item>
-                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="69967fdb-e079-45f1-ade3-25e0a0854bfc" Panel.Bounds="346,746,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
-                            <Add.Item>
                                 <Image Id="fe69109a-21ac-40d3-b8c8-df353f513f5a" Panel.Bounds="51,517,200{5,2147483647},100{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -181,6 +161,22 @@
                         <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
                             <Add.Item>
                                 <Label RichText="Course #8 Title" FontSize="14" FontFamily="Open Sans" FontStyle="Bold" Id="df5a8e18-44a4-415f-af16-290c9c4bdbdf" Panel.Bounds="803,458,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="26ecefb5-bb44-411a-b1aa-ceb1ebdd1f83">
+                            <Add.Item>
+                                <ContainerBox Id="6166fc57-93a9-44c2-897f-7147ecbc7ee1" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="e6bde723-8b48-48cf-8145-16a99d2077e3">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="5f7b525e-14ab-4671-bb9d-01f36334de67" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="52a51e75-86d2-4c72-b841-72d96fdd820f" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="346ffe71-66db-4052-82bd-bb653159b851" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="04f9919d-a3e7-49e7-9a5c-df6dfae6edbf" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

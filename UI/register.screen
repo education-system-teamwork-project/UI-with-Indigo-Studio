@@ -99,6 +99,22 @@
                                 </Button>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="9bc6edf5-16ba-43b9-bfb1-c8f864f29b17">
+                            <Add.Item>
+                                <ContainerBox Id="b6ba8f17-9c68-44b7-a6a8-b48e7eaf8906" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="3a45857b-22e3-4786-b00e-83407a537d4b">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="1ac86f64-cc2b-4dc2-9b18-e54b80fdff20" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="cddfe880-ab61-4d37-be2c-cd9df7861411" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="772b892c-38e2-4929-aeb1-44483635c5da" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="c9f4331b-455e-4341-bf70-bed776a192e9" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

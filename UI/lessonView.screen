@@ -21,7 +21,116 @@
     <Page.Scenes>
         <Scene Title="Start" Created="12/27/2017 10:10:46" Id="081757a2-083f-4d2f-bec2-2f75a268e067">
             <Scene.KeyFrames>
-                <KeyFrame Id="32c0fd8c-180c-4a92-b914-807491501b82" />
+                <KeyFrame Id="32c0fd8c-180c-4a92-b914-807491501b82">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <ContainerBox Id="33a91cbc-fcc1-4f25-b33b-0c1cc7564ec3" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="56d1e6d6-ed63-407a-9344-ec4ccc0a13a3">
+                                            <Container.Children>
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Register&lt;/Run&gt;" FontFamily="Open Sans" Id="635f04a6-3d3b-4667-b920-9adcb49492c7" Panel.Bounds="258,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Login" FontSize="16" FontFamily="Open Sans" Id="e13c0c86-fb57-4a82-9f1b-ba001fc421a8" Panel.Bounds="145,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="e83461f4-748d-495d-8d30-148317ffff0e" Name="Home" Panel.Bounds="47,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <ContainerBox Id="ca768726-e94b-4643-ad6a-a988280db259" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="76620235-7bc0-4d08-96bf-ff9fa5d3bdf3">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="fe02f60c-611b-47fd-9a6a-85e8b921138c" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="1d38c286-67a9-40f5-9473-20835e06fdcc" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="2ca48e0a-d304-495d-ab5b-ef06133a1efb" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="e944f047-eff7-479c-9c8a-345d2420b95b" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="7e58a7b6-bb6f-4994-b4f1-bd06ca87e55a" Panel.Bounds="51,372,0*,0*">
+                                    <Group.Children>
+                                        <ProgressBar Value="24" Id="0b77e967-78d3-43ca-967e-ca4b299da8bf" Panel.Bounds="0,18,902{5,2147483647},13{5,2147483647}" />
+                                        <Label RichText="24% Viewed" FontFamily="Open Sans" Id="b0e7762e-edd6-405e-806c-41cf424781d7" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Label RichText="Resources:" FontSize="16" FontFamily="Open Sans" Id="7fe9c223-e4a8-4c60-baf7-e46fedc8ebb0" Panel.Bounds="207,455,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="7e8a2fb5-6503-4c49-ac0b-1da180ddde2d" Panel.Bounds="51,479,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-plus" Opacity="0.6" Id="56280934-6302-48a0-8490-18da6521380b" Panel.Bounds="0,0,18{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="Diam in arcu cursus euismod quis viverra sodales neque sodales ut" FontFamily="Open Sans" Id="84e03d19-df4f-40c0-aab4-01b78882157d" Panel.Bounds="30,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ee05b3c8-f455-4586-a164-1d4a39fe498c" Panel.Bounds="51,533,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-plus" Opacity="0.6" Id="e529668a-2ea9-4ddf-aece-0f9c9ae6ff71" Panel.Bounds="0,0,18{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="Diam in arcu cursus euismod quis viverra sodales neque sodales ut" FontFamily="Open Sans" Id="63301863-0233-4398-80cb-b547e9818349" Panel.Bounds="30,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="970a32db-b917-4cf0-a052-450d4807b621" Panel.Bounds="51,505,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-plus" Opacity="0.6" Id="0fd3bc6f-a161-41f9-97e3-dada6693b6c1" Panel.Bounds="0,0,18{5,2147483647},18{5,2147483647}" />
+                                        <Label RichText="Diam in arcu cursus euismod quis viverra sodales neque sodales ut" FontFamily="Open Sans" Id="7cd347f3-5aa1-409b-8bd9-b893179edf16" Panel.Bounds="30,0,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Label RichText="Teacher - [Teacher name]" FontSize="16" FontFamily="Open Sans" Id="ecab1596-3d9f-47de-8338-34e973ae9d8b" Panel.Bounds="711,455,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="0ea52e43-daea-4226-b4a3-c968b9adc961">
+                            <Add.Item>
+                                <Guide Position="516" Id="b4dcfc53-3b1b-4d5d-8fed-8a17f1d609b0" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="0ea52e43-daea-4226-b4a3-c968b9adc961">
+                            <Add.Item>
+                                <Guide Position="476" Orientation="Horizontal" Id="9ccb9627-31a1-487b-81f4-aea4a55f0de4" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Image Id="3e7dd9b7-94f5-4a54-880d-55b6a39494d7" Panel.Bounds="516,476,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <Label RichText="Pretium vulputate sapien nec sagittis aliquam malesuada. &#xD;&#xA;Morbi non arcu risus quis. Cursus metus aliquam eleifend &#xD;&#xA;mi in nulla posuere sollicitudin aliquam. Massa tincidunt &#xD;&#xA;dui ut ornare lectus sit amet est. Ullamcorper sit amet risus &#xD;&#xA;nullam eget felis. Nullam eget felis eget nunc lobortis mattis. &#xD;&#xA;Ut diam quam nulla porttitor. Faucibus et molestie ac feugiat &#xD;&#xA;sed lectus." FontFamily="Open Sans" Id="afa431be-402a-485a-9ebf-19989bcb231f" Panel.Bounds="621,479,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="18efd06c-6811-41ce-b232-6b0d8959347b">
+                            <Add.Item>
+                                <VideoPlayer Id="f0c16272-52b9-4236-9954-0c09bf86588a" Panel.Bounds="51,165,902{5,2147483647},187{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
     </Page.Scenes>

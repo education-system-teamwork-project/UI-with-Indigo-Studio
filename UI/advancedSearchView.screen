@@ -1,0 +1,117 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="3af0d950-9ca3-49c4-820b-dfaf1dd863d6">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="75fdaaed-a46a-4555-b28c-fe4c44fc90d3">
+            <Content.Layers>
+                <Layer Id="9d849aee-0f20-4e81-9b18-1384a2a27074" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5f41b89e-c773-4122-910c-9741fa5f10ff" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="851ff470-ad2e-48d4-a3bc-e9f883bc7cfe" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="53349405-7d6b-454d-87cd-fa077ec55018" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/02/2018 20:57:53" Id="ef2269c9-a6b1-4639-885e-b07f5bc3ed68">
+            <Scene.KeyFrames>
+                <KeyFrame Id="67aded32-ca70-44a6-8100-95dc7399554a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <ContainerBox Id="20b3bf0b-3441-4c9e-bdb6-dd947768e91c" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="008020f1-f686-4f0d-a072-800e6274eeea">
+                                            <Container.Children>
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Register&lt;/Run&gt;" FontFamily="Open Sans" Id="482da2dc-b123-4428-a9fc-ea683ba7adff" Panel.Bounds="258,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Login" FontSize="16" FontFamily="Open Sans" Id="ca7c08ed-7f30-48cb-b966-0213aed17f21" Panel.Bounds="145,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="7d982a94-73b2-4176-bdd5-0ec9876f8c27" Name="Home" Panel.Bounds="47,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <ContainerBox Id="e6ed28ca-f8ab-4d50-97ee-a5a9985529ca" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="163fe38d-f22b-4a65-a897-0a3bf787679f">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="82d2ff33-4204-4aa3-bc3a-69d9f2b03fcf" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="6df153e8-d932-494e-92a3-ed783641fa7b" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="3ae17b82-2955-42d7-9cac-6e05cc909857" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="3fa06213-0a20-4dd0-9db8-edfd4903046d" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="8829c177-180f-40bf-a88f-4fba5953cc02" Panel.Bounds="51,129,0*,0*">
+                                    <Group.Children>
+                                        <Image Id="055a75a2-03b4-4203-a67d-ac3fc737c65d" Panel.Bounds="0,0,902{5,2147483647},166{5,2147483647}" />
+                                        <Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Build up your knowledge!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot;&gt;&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Learn new skills!&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;18&quot; &gt;Improve!&lt;/Run&gt;" FontFamily="Open Sans" Id="5101f26a-0dab-4c90-9b52-7d3750f798a9" Panel.Bounds="48,22,323{5,2147483647},129{5,2147483647}" />
+                                        <Button Text="JOIN FOR FREE" CornerRadius="5" BorderThickness="2" FontSize="14" FontFamily="Open Sans" FontStyle="Bold" Id="996ab27d-1ffd-4886-94dd-e5d9523c9d52" Panel.Bounds="745,88,139{5,2147483647},63{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <TextArea WatermarkText="Search by keywords..." FontFamily="Open Sans" Id="de71afe7-ebf1-4394-a4ea-15afb505f52e" Panel.Bounds="51,345,902{5,2147483647},50{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="38ac98ea-bd42-48aa-be70-8021c18b08c1" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="b94547c8-62b2-4209-b0b2-de74b448d1a5" Panel.Bounds="51,430,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Skill level" FontSize="18" FontFamily="Open Sans" Id="2657650d-e857-4d90-a133-a082c021ef17" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <CheckBox Text="Beginner" FontFamily="Open Sans" Id="38ac98ea-bd42-48aa-be70-8021c18b08c1" Panel.Bounds="0,32,5*{5,2147483647},5*{5,2147483647}" />
+                                        <CheckBox Text="Expert" FontFamily="Open Sans" Id="dc0589b7-b05c-42c0-84f4-4c20dfea1a0f" Panel.Bounds="0,106,5*{5,2147483647},5*{5,2147483647}" />
+                                        <CheckBox Text="Intermediate" FontFamily="Open Sans" Id="375b9b16-8495-410f-b255-04aacd6679d2" Panel.Bounds="0,69,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="c1581f14-329a-4312-b132-ff03df1217df" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ccb91308-21cf-4159-bf16-251021417e14" Panel.Bounds="601,430,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Price" FontSize="18" FontFamily="Open Sans" Id="f3b3bd07-24e1-4fd7-9f66-0b821c332821" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <CheckBox Text="Free" FontFamily="Open Sans" Id="fcd6a725-a035-445b-9d39-5667c82c8813" Panel.Bounds="0,32,5*{5,2147483647},5*{5,2147483647}" />
+                                        <CheckBox Text="Paid" FontFamily="Open Sans" Id="6ae4a612-77b4-4ba1-933d-3383402d0f64" Panel.Bounds="0,69,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="c1581f14-329a-4312-b132-ff03df1217df" Panel.Bounds="305,430,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="Starting date" FontSize="18" FontFamily="Open Sans" Id="4297a698-6d37-449d-9aee-892056c1c24e" Panel.Bounds="16,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Image Id="5cfed87b-7c41-46c0-b935-859ae7cf0779" Panel.Bounds="18,32,104{5,2147483647},104{5,2147483647}" />
+                                        <Label RichText="Ne namerih kalendar..." FontFamily="Open Sans" Id="cdc30560-dda2-4d61-bdac-8f8b0c8eb606" Panel.Bounds="0,143,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9d849aee-0f20-4e81-9b18-1384a2a27074">
+                            <Add.Item>
+                                <Icon CatalogId="fa-search" Id="35e36299-29ff-4b7c-b988-635ba41c7799" Panel.Bounds="814,430,102{5,2147483647},102{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

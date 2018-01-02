@@ -86,6 +86,22 @@
                                 <Button Text="Login" Id="76799437-4361-4d8e-8eed-ad644f61f86d" Panel.Bounds="357,359,310{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="966e7933-bb65-459e-9b37-48213582a674">
+                            <Add.Item>
+                                <ContainerBox Id="0c268b90-1e03-44bc-a571-56216c1b22e8" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="1511a753-3a01-4300-976e-cb18ffb8c1b7">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="d7401384-6c40-42a2-958b-c91d289d21b2" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="ee8c2029-f37c-41d5-b8a2-c83763734fe8" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="ff38a9e4-6e92-4c12-a989-2f4407e8804f" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="08d8d73e-eed6-41e5-8c52-9974272bbfb6" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>

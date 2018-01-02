@@ -1,0 +1,271 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="45fb2b56-9558-48f2-b11e-058bfd5e51cb">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="b88e8724-94ea-456d-9fda-021905114bc6">
+            <Content.Layers>
+                <Layer Id="ba6bfc43-3b18-4ccc-a76e-ecf470d5d997" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c05a9209-c2f8-4ae9-8c5e-0d1dc769c3dd" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Id="e112a115-de9f-41b3-a85a-adca05f59227" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9d5faa49-27eb-49ae-b20c-a55818c21f8d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/02/2018 21:40:20" Id="811a958a-9ae9-401b-8ec6-2ae3f17a50b3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b1741488-4779-4023-98ad-d389f04a4608">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ba6bfc43-3b18-4ccc-a76e-ecf470d5d997">
+                            <Add.Item>
+                                <ContainerBox Id="302e7af8-6a7f-4710-8a8a-d4ee536f3e42" Panel.Bounds="51,27,902{5,2147483647},71{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="bb56532e-8aa5-49bf-9acc-e9037b4a2f17">
+                                            <Container.Children>
+                                                <Label RichText="Home" FontSize="16" FontFamily="Open Sans" Id="f30c465e-2d53-4ca4-ae23-cd7ea0039cc0" Name="Home" Panel.Bounds="47,23,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Hello, Admin!&lt;/Run&gt;" FontSize="14" FontFamily="Open Sans" Id="46890c1e-3e34-47ce-8d96-5f161facb8d7" Panel.Bounds="717,25,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Logout" FontSize="16" FontFamily="Open Sans" Id="c560f520-bffb-44c0-baa3-ed8c1845e0e6" Name="Home" Panel.Bounds="140,23,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ba6bfc43-3b18-4ccc-a76e-ecf470d5d997">
+                            <Add.Item>
+                                <ContainerBox Id="02ede64e-dcf0-4800-a1e6-da238f38bf65" Panel.Bounds="0,744,1024{5,2147483647},24{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="afde3c70-8d47-4be2-9a4a-b8da9426c55d">
+                                            <Container.Children>
+                                                <TextBox FontFamily="Open Sans" Id="5cd71e06-c0a6-44ed-b4e9-4e225db7bc72" Panel.Bounds="-1,-1,1024{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Edit About Us" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="801f554b-fcce-4675-a1f8-c609a694d8a3" Panel.Bounds="50,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Edit Contacts" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="3adf1c58-8410-4f5b-b906-c55186973310" Panel.Bounds="199,1,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Edit Support" FontSize="14" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="fd564111-3203-4ece-bdad-83f90975e989" Panel.Bounds="345,1,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ba6bfc43-3b18-4ccc-a76e-ecf470d5d997">
+                            <Add.Item>
+                                <Tabs Id="f66ae4ed-387f-458d-b6b6-4691d5e78b81" Panel.Bounds="51,138,905{5,2147483647},560{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Add / Edit Category" IsSelected="True" Id="3331e46f-d065-49f4-a9ea-a3831f8b7b76">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="7cc7be46-ae12-4192-a57a-a6d4bca3b517">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="f0a2e2d5-029b-488e-836d-1074025a9190" Panel.Bounds="24,33,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="6f1c2163-2d0c-4055-9bb7-1254c5a89ec9" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Category name 1" Id="8215a0c6-7c3e-4e81-82ba-85aeeb1465ab" />
+                                                                        <Item Text="Category name 2" Id="dbe17811-4eae-4709-8213-e3d80aa38cbc" />
+                                                                        <Item Text="Category name 3" Id="b2ba03fd-5a5d-4392-bf46-a21da671b897" />
+                                                                        <Item Text="New category name..." Id="d82e6db6-9dce-4661-b793-e03c688e8e8c" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Edit category name" CornerRadius="5" FontFamily="Open Sans" Id="471a89d8-9e8b-4ba8-b02c-8c8d0eb7f118" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Add / Edit Course" Id="f5a2f65a-a3f2-4873-80ef-4491c71086fc">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="86c1da27-d12d-4d53-87a6-f9ac066c07f9">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="798ef8b0-8bb7-4c20-af0a-e51a2bf14830" Panel.Bounds="26,29,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="ee4184d3-4aca-4953-a7cf-575a9d40b8c6" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Category name 1" Id="6491a57c-f41a-4350-a6f3-a325e4491ce9" />
+                                                                        <Item Text="Category name 2" Id="6e63ff92-71f3-4a74-9e75-14c4e2ff4e49" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose category" CornerRadius="5" FontFamily="Open Sans" Id="ea072976-d6d6-4dbf-8b06-98e33aa65b2e" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="25073e45-9b24-4421-9396-883ed399d7b5" Panel.Bounds="26,306,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Description of course" FontSize="16" FontFamily="Open Sans" Id="95f4b845-a1ad-4e31-a92f-642a6173766d" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}" />
+                                                                <Button Text=" Add description" CornerRadius="5" FontFamily="Open Sans" Id="8bda406b-78e8-4b08-aa60-1f088e3de43e" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="c9affd85-5d05-42e0-853b-b18c761c7388" Panel.Bounds="26,141,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="494be6b9-e219-456c-97d6-d24a33f3d299" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Course name 1" Id="c1e537e7-1b17-4bd2-ba08-fc35fa84420d" />
+                                                                        <Item Text="Course name 2" Id="40d72db9-6fe9-4dd3-9bc1-d9f21b0516e1" />
+                                                                        <Item Text="New course name..." Id="bc006665-b1bd-4d4c-a01b-230453207d99" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose course" CornerRadius="5" FontFamily="Open Sans" Id="bc25d5dc-043c-4129-ac93-01ff9efef7a5" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="3a23f17b-4b8f-43dc-8da9-59f7a128a3e8" Panel.Bounds="26,379,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Course objectives (please separate by pipe-character or add one by one)" FontSize="16" FontFamily="Open Sans" Id="29f7c770-6373-4ee0-a94c-dfa37a650d72" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}" />
+                                                                <Button Text=" Add course objectives" CornerRadius="5" FontFamily="Open Sans" Id="c3f83266-72ce-471f-997d-31df2288f272" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="5c57c57a-b7f9-45c0-a384-7215c322c4ab" Panel.Bounds="26,449,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Course requirements (please separate by pipe-character or add one by one)" FontSize="16" FontFamily="Open Sans" Id="db8b32f8-d4d8-4754-bb50-6d4413110eb2" Panel.Bounds="0,0,613{5,2147483647},43{5,2147483647}" />
+                                                                <Button Text=" Add course requirements" CornerRadius="5" FontFamily="Open Sans" Id="351079ef-95bf-4f59-b2c0-88729fc740cc" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Add / Edit Lesson" Id="9e9d45b5-ab44-4128-b690-17216104944e">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="1203ec87-ad13-4f12-b682-906698f39e3f">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="6d19a278-f32b-4a80-95d3-34e3560bd11e" Panel.Bounds="26,29,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="9d88cb9a-50f0-4477-be8e-76bf95d75817" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Category name 1" Id="769bd9f4-57de-47fa-9c50-22d01a6463cc" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose category" CornerRadius="5" FontFamily="Open Sans" Id="1b04af39-efdd-4dbe-9760-53f4f32ba1ce" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="fc12add8-67e2-402c-9635-9d331c4acb05" Panel.Bounds="26,291,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Lesson video URL" FontSize="16" FontFamily="Open Sans" Id="b16968b6-c11b-4834-83f6-c2f99bdbafd9" Panel.Bounds="0,0,613{5,2147483647},24{5,2147483647}" />
+                                                                <Button Text=" Add video URL" CornerRadius="5" FontFamily="Open Sans" Id="04add280-29d0-4459-8d6d-f099a9aca31c" Panel.Bounds="653,0,198{5,2147483647},24{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="ac6fb55d-5c2f-43ee-9ce7-f2d99d0bebbc" Panel.Bounds="26,104,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="179bea4d-f6f7-44f1-b148-922302941ee0" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Course name 1" Id="a427a05b-73dc-418f-925b-ae1cd6a85184" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose course" CornerRadius="5" FontFamily="Open Sans" Id="10fcba29-54a9-48c7-82a6-a307ee2a9494" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="a680a7ba-05ef-426e-8524-22ff6d595d98" Panel.Bounds="26,185,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="2c52f709-2f1a-4456-a1a6-1f1de36becc3" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Lesson name 1" Id="276efe05-36fa-4ab6-a0ba-a3715ba055d0" />
+                                                                        <Item Text="New lesson name..." Id="dac4efb3-ecac-4c11-89b1-21a3ad12d9c4" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose lesson" CornerRadius="5" FontFamily="Open Sans" Id="42c22c8d-7bf1-4caa-88ab-83dd318ffa4f" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="4c333134-7f00-4426-a7ef-7300b34ef1af" Panel.Bounds="26,371,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Resource URL" FontSize="16" FontFamily="Open Sans" Id="ff1c7ad4-ad45-435c-a09a-0086dc8d80d3" Panel.Bounds="0,0,613{5,2147483647},24{5,2147483647}" />
+                                                                <Button Text=" Add resource URL" CornerRadius="5" FontFamily="Open Sans" Id="012a55c9-553e-49b1-a54a-7162c5de2c95" Panel.Bounds="653,0,198{5,2147483647},24{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="c5248afe-b807-4fa4-802a-6242d3909c9d" Panel.Bounds="26,328,0*,0*">
+                                                            <Group.Children>
+                                                                <TextBox WatermarkText="Resource name" FontSize="16" FontFamily="Open Sans" Id="7dce093b-ecf3-43fe-8658-9ecb167bc121" Panel.Bounds="0,4,613{5,2147483647},5*{5,2147483647}" />
+                                                                <Button Text=" Add resource name" CornerRadius="5" FontFamily="Open Sans" Id="1da2c48c-0188-4359-82b6-3447a3e97b8f" Panel.Bounds="653,4,198{5,2147483647},24{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="27ba73ee-208c-4a41-b4a3-c971d0db52ed" Panel.Bounds="26,420,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="3873c80e-a636-4af6-b83d-b47464007283" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Teacher name 1" Id="a7b57422-1f2f-43a9-83a3-78822431f586" />
+                                                                        <Item Text="Teacher name 2" Id="c78671be-11b8-46fa-a9d8-e46538495a11" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose teacher" CornerRadius="5" FontFamily="Open Sans" Id="6a85cf44-508a-49cd-99ac-df85cf053576" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Add / Edit Teacher" Id="d4ced0cb-f1f9-4339-b410-465d1ae51313">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="e5f5357a-2b8c-40cf-9aa2-1ae9bee15c51">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="587ee18f-4656-4f74-8b9a-c698515341fe" Panel.Bounds="30,25,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="3275f8bc-1f15-4e91-bd2c-415515d792e1" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Teacher name 1" Id="c28b947a-ab58-41cd-ba18-28eccb448b45" />
+                                                                        <Item Text="Teacher name 2" Id="2ba0c2ab-be75-4c1e-aca7-a7f5be19efcb" />
+                                                                        <Item Text="New teacher name..." Id="94fd0fae-640b-49f0-a2e1-1903a5fb425e" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose teacher" CornerRadius="5" FontFamily="Open Sans" Id="71c62615-cb17-4478-8f58-84e866b1a9b0" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="1de3fbfc-309a-48d5-aae1-9a6f514bff82" Panel.Bounds="30,181,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Upload teacher photo" FontSize="16" FontFamily="Open Sans" Id="9761b9db-a7a8-4ebd-9a56-d567ef743f06" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}" />
+                                                                <Button Text="Upload photo" CornerRadius="5" FontFamily="Open Sans" Id="c81ad838-6ab7-46d9-868e-49f0102d1f16" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Group GroupName="Group" Id="920612bf-3c58-47c2-a52b-392c20ee3be3" Panel.Bounds="30,239,0*,0*">
+                                                            <Group.Children>
+                                                                <TextArea WatermarkText="Description" FontSize="16" FontFamily="Open Sans" Id="9ec8ef31-d0e7-4734-a9bf-a84034611272" Panel.Bounds="0,0,613{5,2147483647},78{5,2147483647}" />
+                                                                <Button Text="Add description" CornerRadius="5" FontFamily="Open Sans" Id="0eddb336-2e96-4212-ba6e-aa5c30c72936" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Edit User" Id="8f69e67b-8341-427f-aeef-3183e01ef5cf">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="73de7a1a-20ca-429e-8f6b-be8b6d42619b">
+                                                    <Container.Children>
+                                                        <Group GroupName="Group" Id="52ab51ff-4370-4a1b-87cc-5a00d31d4af6" Panel.Bounds="30,25,0*,0*">
+                                                            <Group.Children>
+                                                                <ComboBox IsOpen="True" Id="e829a5e0-1a37-4a16-9fb6-f362f9eaceb7" Panel.Bounds="0,0,613{5,2147483647},30{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="User name 1" Id="723938ee-4d91-4087-b410-f10245078464" />
+                                                                        <Item Text="User name 2" Id="a71b7663-785a-4774-b42a-d7ea505e78ee" />
+                                                                        <Item Text="User name 3" Id="c0104c7f-7296-48b3-9fb2-78c759a87a9a" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                                <Button Text="Choose user" CornerRadius="5" FontFamily="Open Sans" Id="72991e4d-d3ca-4f40-9a88-57ba0cda15c3" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <Image Id="ffb5c977-fbb4-4e32-9c9d-41340ce5a052" Panel.Bounds="30,170,120{5,2147483647},120{5,2147483647}" />
+                                                        <Group GroupName="Group" Id="e00157cf-f85c-41d8-8cf4-b08eaa76804f" Panel.Bounds="184,170,0*,0*">
+                                                            <Group.Children>
+                                                                <Label RichText="&lt;Run FontSize=&quot;21&quot; &gt;Username&lt;/Run&gt;" FontFamily="Open Sans" Id="54556239-c356-4824-a488-56e169b9ceb9" Panel.Bounds="0,0,132{5,2147483647},24{5,2147483647}" />
+                                                                <TextArea WatermarkText="User info" FontFamily="Open Sans" Id="b033e8b9-976f-409d-a397-db36f7763b57" Panel.Bounds="0,28,697{5,2147483647},93{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <MultilineButton Title="Delete user photo" TitleFontFamily="Open Sans" TitleFontStyle="Bold" Hint="(if e.g. inappropriate)" HintFontFamily="Open Sans" HintFontStyle="Italic" CornerRadius="5" Id="6c267357-d44e-4c62-a6f9-08653c979a27" Panel.Bounds="30,327,165{5,2147483647},70{5,2147483647}" />
+                                                        <MultilineButton Title="Edit description" TitleFontFamily="Open Sans" TitleFontStyle="Bold" Hint="(if e.g. inappropriate)" HintFontFamily="Open Sans" HintFontStyle="Italic" CornerRadius="5" Id="ab8ec991-b1be-4746-906b-344e94071e82" Panel.Bounds="254,327,165{5,2147483647},70{5,2147483647}" />
+                                                        <Button Text="Temporarily BAN user" CornerRadius="5" FontSize="15" FontFamily="Open Sans" FontStyle="Bold" Id="b514a9cc-05fa-4b86-9114-9e5656600e68" Panel.Bounds="464,327,174{5,2147483647},70{5,2147483647}" />
+                                                        <Button Text="DELETE user" Background="#FFFF2E2E" CornerRadius="5" FontSize="15" FontFamily="Open Sans" FontStyle="Bold" Id="53746895-b597-45d8-85d3-79cb88d0e6ce" Panel.Bounds="699,327,165{5,2147483647},70{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
