@@ -58,7 +58,7 @@
                             <Add.Item>
                                 <Tabs Id="f66ae4ed-387f-458d-b6b6-4691d5e78b81" Panel.Bounds="51,138,905{5,2147483647},560{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Add / Edit Category" IsSelected="True" Id="3331e46f-d065-49f4-a9ea-a3831f8b7b76">
+                                        <TabItem Header="Add / Edit Category" Id="3331e46f-d065-49f4-a9ea-a3831f8b7b76">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="7cc7be46-ae12-4192-a57a-a6d4bca3b517">
                                                     <Container.Children>
@@ -75,6 +75,7 @@
                                                                 <Button Text="Edit category name" CornerRadius="5" FontFamily="Open Sans" Id="471a89d8-9e8b-4ba8-b02c-8c8d0eb7f118" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
                                                             </Group.Children>
                                                         </Group>
+                                                        <Button Text="DELETE category" Background="#FFFF2E2E" CornerRadius="5" FontFamily="Open Sans" FontStyle="Bold" Id="588c26bc-0c04-43d7-b152-5aa3c35520dc" Panel.Bounds="678,91,198{5,2147483647},43{5,2147483647}" />
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
@@ -124,6 +125,7 @@
                                                                 <Button Text=" Add course requirements" CornerRadius="5" FontFamily="Open Sans" Id="351079ef-95bf-4f59-b2c0-88729fc740cc" Panel.Bounds="653,0,198{5,2147483647},43{5,2147483647}" />
                                                             </Group.Children>
                                                         </Group>
+                                                        <Button Text="DELETE course" Background="#FFFF2E2E" CornerRadius="5" FontFamily="Open Sans" FontStyle="Bold" Id="631be04e-8752-4730-a221-8f965f6047b5" Panel.Bounds="680,199,198{5,2147483647},43{5,2147483647}" />
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
@@ -192,6 +194,7 @@
                                                                 <Button Text="Choose teacher" CornerRadius="5" FontFamily="Open Sans" Id="6a85cf44-508a-49cd-99ac-df85cf053576" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
                                                             </Group.Children>
                                                         </Group>
+                                                        <Button Text="DELETE lesson" Background="#FFFF2E2E" CornerRadius="5" FontFamily="Open Sans" FontStyle="Bold" Id="5689b1d1-c43f-4a9f-834b-31ba29494a55" Panel.Bounds="680,230,198{5,2147483647},30{5,2147483647}" />
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
@@ -224,11 +227,12 @@
                                                                 <Button Text="Add description" CornerRadius="5" FontFamily="Open Sans" Id="0eddb336-2e96-4212-ba6e-aa5c30c72936" Panel.Bounds="653,0,198{5,2147483647},30{5,2147483647}" />
                                                             </Group.Children>
                                                         </Group>
+                                                        <Button Text="DELETE teacher" Background="#FFFF2E2E" CornerRadius="5" FontFamily="Open Sans" FontStyle="Bold" Id="10220c60-af2b-4c6a-93b0-6cdb7b9e7913" Panel.Bounds="684,70,198{5,2147483647},30{5,2147483647}" />
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Edit User" Id="8f69e67b-8341-427f-aeef-3183e01ef5cf">
+                                        <TabItem Header="Edit User" IsSelected="True" Id="8f69e67b-8341-427f-aeef-3183e01ef5cf">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="73de7a1a-20ca-429e-8f6b-be8b6d42619b">
                                                     <Container.Children>
@@ -261,6 +265,11 @@
                                         </TabItem>
                                     </Tabs.Items>
                                 </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="9d5faa49-27eb-49ae-b20c-a55818c21f8d">
+                            <Add.Item>
+                                <Guide Position="397" Orientation="Horizontal" Id="c8867312-8de1-4d2c-99c8-cceee05d636d" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
